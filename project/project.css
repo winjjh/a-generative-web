@@ -141,28 +141,28 @@
 @media only screen and (min-width: 1024px) {
     .v-line{
         border-left: thick solid #000;
-        height:500%;
+        height:310%;
         left: 50%;
         position: absolute;
        }
     
        .v-line2{
         border-left: thick solid #000;
-        height:500%;
+        height:310%;
         left: 5%;
         position: absolute;
        }
     
        .v-line3{
         border-left: thick solid #000;
-        height:500%;
+        height:310%;
         left: 40%;
         position: absolute;
        }
     
        .v-line4{
         border-left: thick solid #000;
-        height:500%;
+        height:310%;
         left: 95%;
         position: absolute;
        }
@@ -208,6 +208,7 @@
     
       .image {
           position: absolute;
+          padding-top: 2.5px;
           width: 44.7%;
           left: 5.3%;
       }
@@ -226,7 +227,7 @@
       .image2 {
         position: absolute;
         width: 44.7%;
-        top: 66%;
+        top: 66.45%;
         left: 5.3%;
     }
     
