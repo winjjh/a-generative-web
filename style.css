@@ -1,0 +1,139 @@
+.v-line{
+    border-left: thick solid #000;
+    height:100%;
+    left: 50%;
+    position: absolute;
+   }
+
+   .v-line2{
+    border-left: thick solid #000;
+    height:100%;
+    left: 5%;
+    position: absolute;
+   }
+
+   .v-line3{
+    border-left: thick solid #000;
+    height:100%;
+    left: 40%;
+    position: absolute;
+   }
+
+   .v-line4{
+    border-left: thick solid #000;
+    height:100%;
+    left: 95%;
+    position: absolute;
+   }
+
+.firstline {
+  border: 0;
+  width: 100%;
+  align: left;
+  height: 10px;
+  background: black;
+}
+
+.secondline {
+    position: absolute;
+    top: 95%;
+    border: 0;
+    width: 100%;
+    align: left;
+    height: 10px;
+    background: black;
+  }
+
+.name {
+    position: absolute;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+  .numbers {
+      position: absolute;
+      Top: 45%;
+      left: 41.5%;
+      font-size: 31px;
+  }
+
+  a { text-decoration:none } 
+
+  * {
+    margin:0;
+    padding:0;
+  }
+  
+  #wrap {
+    width:100%;
+    height:100%;
+    text-align:center;
+    vertical-align:middle;
+  }
+  
+  #wrap p {
+    color:white;
+    font-size:25px;
+    line-height:300px;
+  }
+
+  #wrap2 {
+    width:100%;
+    height:300px;
+    text-align:center;
+    vertical-align:middle;
+  }
+  
+  #wrap2 p {
+    color:white;
+    font-size:25px;
+    line-height:300px;
+  }
+
+  .hiddenimg {
+    display: none;
+  }
+  
+  .hiddentxt {
+    font-weight: bold;
+    color: #F00;
+    z-index:99;
+  }
+  
+  .hiddentxt a {
+    color: #F00;
+    text-decoration: none;
+    z-index: 99;
+  }
+  
+  .hiddenclick {
+    font-weight: bold;
+    color: #F00;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .hiddenclick a {
+    color: #F00;
+    text-decoration: none;
+  }
+  
+  .hiddenclick a:visited {
+    color: #F00;
+    text-decoration: none;
+  }
+  
+  .hiddentxt:hover ~ .hiddenimg {
+    display: block;
+    position: absolute;
+      z-index: 2
+  }
+  
+  .hiddenclickimg {
+    display: none;
+  }
+
+  .image01 {
+    width: 550%;
+  }

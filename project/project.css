@@ -1,0 +1,279 @@
+.v-line{
+    border-left: thick solid #000;
+    height:98%;
+    left: 50%;
+    position: absolute;
+   }
+
+   .v-line2{
+    border-left: thick solid #000;
+    height:98%;
+    left: 5%;
+    position: absolute;
+   }
+
+   .v-line3{
+    border-left: thick solid #000;
+    height:98%;
+    left: 40%;
+    position: absolute;
+   }
+
+   .v-line4{
+    border-left: thick solid #000;
+    height:98%;
+    left: 95%;
+    position: absolute;
+   }
+
+.firstline {
+  border: 0;
+  width: 100%;
+  align: left;
+  height: 10px;
+  background: black;
+}
+
+.secondline {
+    position: absolute;
+    top: 20.5%;
+    border: 0;
+    width: 100%;
+    align: left;
+    height: 10px;
+    background: black;
+  }
+
+.name {
+    position: absolute;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+  .numbers {
+      position: absolute;
+      Top: 45%;
+      left: 41.5%;
+      font-size: 31px;
+  }
+
+  a { text-decoration:none } 
+
+  * {
+    margin:0;
+    padding:0;
+  }
+
+  .image {
+      position: absolute;
+      width: 44.7%;
+      left: 5.3%;
+      top: 1%;
+  }
+
+  .veganism {
+      position: absolute;
+      padding: 20px;
+      padding-left: 40px;
+      width: 30%;
+      top: 1%;
+      left: 50%;
+      font-size: 7px;
+      
+  }
+
+  .image2 {
+    position: absolute;
+    width: 44.7%;
+    top: 21.7%;
+    left: 5.3%;
+}
+
+.manifesto {
+    position: absolute;
+    padding: 20px;
+    width: 40%;
+    top: 25%;
+    left: 50%;
+    font-size: 15px;
+}
+
+.thridline {
+    position: absolute;
+    top: 58%;
+    border: 0;
+    width: 100%;
+    align: left;
+    height: 10px;
+    background: black;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 44.7%;
+    top: 59.2%;
+    left: 5.3%;
+}
+
+.mantra {
+    position: absolute;
+    padding: 20px;
+    width: 30%;
+    top: 62%;
+    left: 50%;
+    font-size: 12px;
+    padding-left: 40px;
+}
+
+.fourthline {
+    position: absolute;
+    top: 95%;
+    border: 0;
+    width: 100%;
+    align: left;
+    height: 10px;
+    background: black;
+  }
+
+
+/*target only screen up to 1024px*/
+@media only screen and (min-width: 1024px) {
+    .v-line{
+        border-left: thick solid #000;
+        height:500%;
+        left: 50%;
+        position: absolute;
+       }
+    
+       .v-line2{
+        border-left: thick solid #000;
+        height:500%;
+        left: 5%;
+        position: absolute;
+       }
+    
+       .v-line3{
+        border-left: thick solid #000;
+        height:500%;
+        left: 40%;
+        position: absolute;
+       }
+    
+       .v-line4{
+        border-left: thick solid #000;
+        height:500%;
+        left: 95%;
+        position: absolute;
+       }
+    
+    .firstline {
+      border: 0;
+      width: 100%;
+      align: left;
+      height: 10px;
+      background: black;
+    }
+    
+    .secondline {
+        position: absolute;
+        top: 65%;
+        border: 0;
+        width: 100%;
+        align: left;
+        height: 10px;
+        background: black;
+      }
+    
+    .name {
+        position: absolute;
+        padding: 20px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+      .numbers {
+          position: absolute;
+          Top: 45%;
+          left: 41.5%;
+          font-size: 31px;
+      }
+    
+      a { text-decoration:none } 
+    
+      * {
+        margin:0;
+        padding:0;
+      }
+    
+      .image {
+          position: absolute;
+          width: 44.7%;
+          left: 5.3%;
+      }
+    
+      .veganism {
+          position: absolute;
+          padding: 20px;
+          padding-left: 40px;
+          width: 50%;
+          top: 20%;
+          left: 50%;
+          font-size: 25px;
+          
+      }
+    
+      .image2 {
+        position: absolute;
+        width: 44.7%;
+        top: 66%;
+        left: 5.3%;
+    }
+    
+    .manifesto {
+        position: absolute;
+        padding: 20px;
+        width: 50%;
+        top: 100%;
+        left: 50%;
+        font-size: 25px;
+        padding-left: 40px;
+    }
+    
+    .thridline {
+        position: absolute;
+        top: 185%;
+        border: 0;
+        width: 100%;
+        align: left;
+        height: 10px;
+        background: black;
+      }
+    
+      .image3 {
+        position: absolute;
+        width: 44.7%;
+        top: 186.2%;
+        left: 5.3%;
+    }
+    
+    .mantra {
+        position: absolute;
+        padding: 20px;
+        width: 50%;
+        top: 200%;
+        left: 50%;
+        font-size: 25px;
+        padding-left: 40px;
+    }
+    
+    .fourthline {
+        position: absolute;
+        top: 303%;
+        border: 0;
+        width: 100%;
+        align: left;
+        height: 10px;
+        background: black;
+      }
+}
