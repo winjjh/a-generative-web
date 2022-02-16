@@ -1,5 +1,5 @@
 var color = '#';
-var letters = ['f6c9cc', 'a8c0c0', 'FEBF36', 'FF7238', '6475A0', 'acc7bf', '5e5f67', 'c37070', 'eae160', 'bf7aa3', 'd7d967'];
+var letters = ['0000FF', 'aefbfb', 'FEBF36', 'ff9b39', 'ad47ff', '42ffc7', '5e5f67', 'c90076', 'ffd62a', 'ffe0f7', '67d967'];
 
 color += letters[Math.floor(Math.random() * letters.length)];
 document.getElementById('wrap').style.background = color;

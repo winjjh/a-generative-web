@@ -1,0 +1,198 @@
+body {
+    background-color: blue;
+}
+
+.blue {
+    width: 50%;
+}
+
+.v-line{
+    border-left: 5px solid white;
+    height:105%;
+    left: 50%;
+    position: absolute;
+   }
+
+   .v-line2{
+    border-left: 10px solid #000;
+    height:105%;
+    left: 20%;
+    position: absolute;
+   }
+
+   .v-line3{
+    border-left: 5px solid #000;
+    height:105%;
+    left: 40%;
+    position: absolute;
+    display: none;
+   }
+
+   .v-line4{
+    border-left: 7.5px solid #000;
+    height:105%;
+    left: 95%;
+    position: absolute;
+   }
+
+   .firstline {
+    border: 0;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    align: left;
+    height: 7px;
+    background: white;
+  }
+  
+  .secondline {
+      position: absolute;
+      top: 85.1%;
+      border: 0;
+      width: 100%;
+      align: left;
+      height: 12px;
+      background: black;
+    }
+  
+  .thirdline {
+    position: absolute;
+    top: 44.3%;
+    border: 0;
+    width: 100%;
+    align: left;
+    height: 15.1px;
+    background: black;
+}
+
+  .dog {
+      position: absolute;
+      width: 35%;
+      top: 50.5%;
+      left:0;
+  }
+
+  .mouth {
+      position: absolute;
+      width: 105%;
+      height: auto;
+      top: 50.1%;
+      right: 0%;
+  }
+
+  .vision {
+      position: absolute;
+      width: 82.5%;
+  }
+
+  .text {
+    position: absolute;
+    top: 15%;
+    right: 0.7%;
+    color: white;
+    font-size: 20px;
+}
+
+.text02 {
+    position: absolute;
+    top: 80%;
+    left: 2.7%;
+    color: white;
+    font-size: 20px;
+}
+
+  /*target only screen up to 1024px*/
+@media only screen and (min-width: 1024px) {
+    .v-line{
+        border-left: 10px solid white;
+        height:105%;
+        left: 50%;
+        position: absolute;
+       }
+    
+       .v-line2{
+        border-left: 20px solid #000;
+        height:105%;
+        left: 20%;
+        position: absolute;
+       }
+    
+       .v-line3{
+        border-left: 10px solid #000;
+        height:105%;
+        left: 40%;
+        position: absolute;
+       }
+    
+       .v-line4{
+        border-left: 15px solid #000;
+        height:105%;
+        left: 95%;
+        position: absolute;
+       }
+    
+       .firstline {
+        border: 0;
+        width: 100%;
+        position: absolute;
+        top: 20%;
+        align: left;
+        height: 10px;
+        background: white;
+      }
+      
+      .secondline {
+          position: absolute;
+          top: 89.1%;
+          border: 0;
+          width: 100%;
+          align: left;
+          height: 10px;
+          background: white;
+        }
+      
+      .thirdline {
+        position: absolute;
+        top: 45%;
+        border: 0;
+        width: 100%;
+        align: left;
+        height: 10px;
+        background: black;
+      }
+    
+      .dog {
+          position: absolute;
+          width: 35%;
+          top: 50.5%;
+          left:0;
+      }
+    
+      .mouth {
+          position: absolute;
+          width: 45.1%;
+          height: auto;
+          top: 47.1%;
+          right: 5%;
+      }
+    
+      .vision {
+          position: absolute;
+          width: 20%;
+      }
+      
+      .text {
+        position: absolute;
+        left: 49.7%;
+        color: white;
+        font-size: 75px;
+    }
+    
+    .text02 {
+        position: absolute;
+        top: 40%;
+        left: 15.7%;
+        color: white;
+        font-size: 75px;
+    }
+}
